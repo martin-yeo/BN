@@ -28,9 +28,10 @@ char* func_01(int numbers[], size_t numbers_len) {
 int main(void) {
     int Numbers[] = { 4, 40, 49, 7, 8 };
 
-    printf("입력: "); 
-    for (int i = 0; i < sizeof(Numbers) / sizeof(Numbers[0]); i++) printf("%2d", Numbers[i]);
+    printf("입력:\n"); 
+    for (int i = 0; i < sizeof(Numbers) / sizeof(Numbers[0]); i++) printf("%2d, ", Numbers[i]);
     
+    printf("\n출력:\n");
     printf("%s\n", func_01(Numbers, sizeof(Numbers) / sizeof(Numbers[0])));
  
     return 0;
