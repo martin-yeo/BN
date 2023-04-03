@@ -26,7 +26,7 @@ char* func_01(int numbers[], size_t numbers_len) {
 }
     
 int main(void) {
-    int Numbers[] = { 4, 40, 49, 7, 8 };
+    int Numbers[] = { 4, 40, 49, 7, 8 , 33};
 
     printf("입력:\n"); 
     for (int i = 0; i < sizeof(Numbers) / sizeof(Numbers[0]); i++) printf("%2d, ", Numbers[i]);
